@@ -1,0 +1,104 @@
+.conteiner {
+    width: min(100% , 1440px);
+    margin: auto;
+    
+}
+header {
+    background: rgba(64, 33, 1, 1);
+    padding: 37px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_nav_ul {
+    display: flex;
+    column-gap: 60px;
+    
+}
+.header_nav_ul_li {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.active {
+    color: rgba(255, 255, 255, 1);
+}
+.inactive {
+    color: rgba(213, 144, 110, 1);
+}
+.header_section_main {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.57px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+}
+.header_section_main_span {
+   color:rgba(213, 144, 110, 1);
+}
+.header_second_section {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+.header_second_section_text{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+}
+.header_button {
+    background-color: inherit;
+    border: none;
+}
+.sectiion_1 {
+    height: 560px;
+    background-image: url(../images/cover1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    display: flex;
+    justify-content: center;
+}
+.sectiion_1_article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 48px;
+}
+.sectiion_1_article_title {
+    font-family: Inter;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(255, 255, 255, 1);
+}
+.sectiion_1_article_button {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border: 2px solid rgba(181, 59, 27, 1);
+    box-shadow: 0px 4px 4px 0px rgba(88, 21, 4, 1);
+    width: 168px;
+    height: 48px;
+    border-radius: 10px;
+    color: rgba(181, 59, 27, 1);
+}
