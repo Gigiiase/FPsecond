@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/laptop.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/mobile.css">
+
+    <link rel="icon" type="icon/x-image" href="images/Rectangle 102 (3).png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Earthly Artisry</title>
+</head>
+<body>
+    <div class="conteiner">
+        <header>
+            <nav class="header_nav">
+                <ul class="header_nav_ul">
+                    <li class="header_nav_ul_li"><a href="index.html" class="active">
+                        Home
+                    </a>
+                    </li>
+                    <li class="header_nav_ul_li"><a href="about.html" class="inactive">
+                        Artworks
+                    </a>
+                    </li>
+                    <li class="header_nav_ul_li"><a href="contact.html" class="active">
+                        Contact
+                    </a>
+                    </li>
+                </ul>
+            </nav>
+            <section class="header_section">
+                <h3 class="header_section_main">Earthly<span class="header_section_main_span">Artisry</span></h3>
+            </section>
+            <section class="header_second_section">
+                <p class="header_second_section_text">Sign In</p>
+                <button class="header_button">
+                    <img src="images/Vector (3).svg" alt="" class="header_cart">
+                </button>
+            </section>
+        </header>
+<!-- section 1 -->
+        <section class="about_section_class">
+            <div class="search-container">
+                <article class="search-container_article">
+                    
+                <label for="search-input" class="search-label">Search:</label>
+                <input type="text" id="search-input" name="search" class="search-input" placeholder="Type to search...">
+                <button class="search-button">Search</button>
+            </article>
+
+            <div id="controls">
+                <label for="cards-per-page">Cards per page:</label>
+                <select id="cards-per-page">
+                  <option value="9" selected>9</option>
+                  <option value="15">15</option>
+                  <option value="21">21</option>
+                  <option value="30">30</option>
+                </select>
+              </div>
+
+            <article class="search-container_article_second">
+                <p class="search_container_text">SHOP ALL / artworks</p>
+            </article>
+            </div>
+
+            <section id="card_section"> 
+            </section>
+
+            <article class="button_class">
+                <button id="back_button" disabled>back</button>
+                <button id="next_button">next</button>
+            </article>
+        </section>
+
+        <!-- footer -->
+<footer class="footer_class">
+    <section class="footer_section_class">
+        <h5 class="footer_class_title">
+            Brands
+        </h5>
+        <nav class="footer_nav">
+            <ul class="footer_nav_ul">
+                <li class="footer_nav_ul_li">
+                    <a href="index.html" class="footer_active">Fender</a>
+                </li>
+                <li>
+                    <a href="index.html" class="footer_active">Gibson</a>
+                </li>
+                <li>
+                    <a href="index.html" class="footer_active">Jockson</a>
+                </li>
+                <li>
+                    <a href="index.html" class="footer_active">Ibanez</a>
+                </li>
+            </ul>
+        </nav>
+
+    </section>
+
+    <section class="footer_section_class">
+        <h5 class="footer_class_title">
+            Information
+        </h5>
+        <nav>
+            <ul class="footer_nav_ul">
+                <li class="footer_nav_ul_li">
+                    <a href="index.html" class="footer_active">Blog</a>
+                </li>
+                <li>
+                    <a href="index.html" class="footer_active">Delivery</a>
+                </li>
+                <li>
+                    <a href="index.html" class="footer_active">About us</a>
+                </li>
+            </ul>
+        </nav>
+
+    </section>
+
+    <section class="footer_section_class">
+        <h5 class="footer_class_title">
+            Contact
+        </h5>
+        <nav>
+            <ul class="footer_nav_ul">
+                <li class="footer_nav_ul_li">
+                    <a href="index.html" 
+                    class="footer_active">Tbilisi, str, Rustaveli 24</a>
+                </li>
+                <li>
+                    <a href="index.html" class="footer_active">+(32)2 56 78 98</a>
+                </li>
+            </ul>
+        </nav>
+        <section class="icon_section">
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/logos_facebook.svg" alt="facebook_photo" class="icon_hover"></a>
+            <a href="https://web.whatsapp.com/" target="_blank"><img src="images/logos_youtube.svg" alt="whatsapp_photo" class="icon_hover"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="images/Group.svg" alt="intagram_photo" class="icon_hover"></a>
+
+        </section>
+
+    </section>
+   </footer>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
