@@ -143,7 +143,7 @@ let skip = 0;
 let totalProducts = 0;
 
 const fetchProducts = () => {
-    // Show placeholders before fetching
+
     showPlaceholder(limit);
 
     fetch(`https://dummyjson.com/products?limit=${limit}&skip=${skip}`)
@@ -268,6 +268,30 @@ function showPlaceholder(count) {
 
 // Initial fetch
 fetchProducts();
+
+
+
+
+
+function compresedText(text) {
+let count = 1;
+let letter = text[0];
+let compresedString = "";
+
+for(let i = 1; i < letter.length; i++){
+    while(letter === text[i]) {
+        i++;
+        count++;
+    }
+    compresedString += `${count} ${letter}`;
+    letter = text[i];
+    count = 1;
+    if (i === text.length - 1) {
+    compresedString += `${count} ${letter}`;
+    }
+}
+}
+console.log(compresedText("aaabbccc"));
 
 
 

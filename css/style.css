@@ -293,7 +293,7 @@ text-decoration-skip-ink: none;
 vertical-align: middle;
 }
 
-.search-input {
+.form-control{
     padding: 8px 12px;
     font-size: 16px;
     border: 1px solid var(--border-color, #000);
@@ -302,7 +302,7 @@ vertical-align: middle;
     transition: border-color 0.3s;
 }
 
-.search-input:focus {
+.form-control:focus {
     border-color: #007bff;
 }
 
@@ -714,3 +714,5 @@ text-decoration-skip-ink: none;
         background-color: #e9ecef;
     }
 }
+
+
